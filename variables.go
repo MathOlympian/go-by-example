@@ -6,11 +6,18 @@ func main (){
 
 	// var declares 1 or more variable
 	var a = "initial"
+
+	var q string  = "var string"
+	var qu float64 = 123243.44255
+	fmt.Println(q, qu)
 	fmt.Println(a)	
 
 	// You can declare multiple variables at once
 	var b, c int = 1, 2
-	fmt. Println(b, c)
+	fmt.Println(b, c)
+
+	var you, me string = "YOU", "ME"
+	fmt.Println(you, me)
 	
 	// Go will infer the type of initialized variables
 	var d = true

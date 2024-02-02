@@ -5,7 +5,7 @@ import "fmt"
 func main (){
 
 	// strings can be added with +
-	fmt.Println("go" + "lang") 
+	/fmt.Println("go" + "lang") 
 	
 	// Integers and floats
 	fmt.Println("1 + 1 =", 1 + 1)
